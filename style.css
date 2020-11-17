@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.container {
+    border: 1px solid red;
+    display: grid;
+    padding: 5px;
+    width: 1380px;
+    grid-template-columns: auto auto auto;
+    grid-gap: 25px;
+    padding: 50px;
+    margin: auto;
+}
+
+.item1 {
+    border-radius: 10px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    border: 1px solid red;
+    background-color: hsl(263, 55%, 52%);
+    padding: 15px;
+  }
+
+  .item2 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    border: 1px solid black;
+    background-color: hsl(217, 19%, 35%);
+  }
+  .item3 {
+    
+    grid-row-start: 1;
+    grid-row-end: 12;
+    grid-column-start: 7;
+    grid-column-end: auto;
+    border: 1px solid violet;
+  }
+
+  .item4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 12;
+      border:1px solid gray;
+  }
+
+  .item5 {
+    background-color: hsl(219, 29%, 14%);
+    grid-row-start: 3;
+    grid-row-end: 12;
+    grid-column-start: 3;
+    grid-column-end: 7;
+    border: 1px solid red;  
+    
+  }
+
+  .cabecalho {
+      text-align: center;
+      margin-left: 15px; 
+      line-height: 25px; 
+  }
+
+  .item img {
+      border: 1px solid blue;
+  }
+
+.nome {
+
+    color:  hsl(210, 46%, 95%);
+}
+
+.titulo {
+    color: hsl(0, 0%, 81%);
+
+}
+
+.destaque {
+    color:  hsl(210, 46%, 95%);
+    font-size: 2.1em;
+    padding-top: 25px;
+}
+
+body p {
+    line-height: 20px;
+    padding-top: 25px;
+}
+
+.header {
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+
+.header img {
+    border-radius: 50%;
+    border: 3px solid hsla(210, 46%, 95%, 0.3);
+}
